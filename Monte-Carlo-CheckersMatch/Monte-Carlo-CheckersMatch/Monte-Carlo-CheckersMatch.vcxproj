@@ -157,6 +157,9 @@
     <ClInclude Include="Move.h" />
     <ClInclude Include="Navigation.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Xml Include="About.xml" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
