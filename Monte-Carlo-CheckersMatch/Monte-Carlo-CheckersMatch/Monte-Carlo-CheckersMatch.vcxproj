@@ -150,15 +150,17 @@
     <ClCompile Include="Gameboard.cpp" />
     <ClCompile Include="Monte-Carlo-CheckersMatch.cpp" />
     <ClCompile Include="Move.cpp" />
-    <ClCompile Include="Navigation.cpp" />
+    <ClCompile Include="UI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Gameboard.h" />
     <ClInclude Include="Move.h" />
-    <ClInclude Include="Navigation.h" />
+    <ClInclude Include="UI.h" />
   </ItemGroup>
   <ItemGroup>
-    <Xml Include="About.xml" />
+    <Xml Include="About.xml">
+      <SubType>Designer</SubType>
+    </Xml>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

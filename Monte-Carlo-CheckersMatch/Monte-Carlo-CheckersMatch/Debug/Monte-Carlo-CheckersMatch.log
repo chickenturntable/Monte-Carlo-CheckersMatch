@@ -1,7 +1,6 @@
-﻿  Gameboard.cpp
-  Monte-Carlo-CheckersMatch.cpp
-  Move.cpp
-  Navigation.cpp
-c:\users\jisasc2\documents\github\monte-carlo-checkersmatch\monte-carlo-checkersmatch\monte-carlo-checkersmatch\navigation.cpp(191): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Generating Code...
+﻿  UI.cpp
+c:\users\jisasc2\documents\github\monte-carlo-checkersmatch\monte-carlo-checkersmatch\monte-carlo-checkersmatch\ui.cpp(145): warning C4018: '<': signed/unsigned mismatch
+c:\users\jisasc2\documents\github\monte-carlo-checkersmatch\monte-carlo-checkersmatch\monte-carlo-checkersmatch\ui.cpp(144): warning C4101: 'buffer': unreferenced local variable
+c:\users\jisasc2\documents\github\monte-carlo-checkersmatch\monte-carlo-checkersmatch\monte-carlo-checkersmatch\ui.cpp(299): warning C4018: '<': signed/unsigned mismatch
+c:\users\jisasc2\documents\github\monte-carlo-checkersmatch\monte-carlo-checkersmatch\monte-carlo-checkersmatch\ui.cpp(300): warning C4018: '<': signed/unsigned mismatch
   Monte-Carlo-CheckersMatch.vcxproj -> C:\Users\jisasc2\Documents\GitHub\Monte-Carlo-CheckersMatch\Monte-Carlo-CheckersMatch\Debug\Monte-Carlo-CheckersMatch.exe
