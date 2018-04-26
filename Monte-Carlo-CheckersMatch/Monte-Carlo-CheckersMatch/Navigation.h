@@ -36,6 +36,7 @@ private:
 	string helpMenuTitle = "ASSITANCE";
 	string aboutMenuTitle = "ABOUT";
 	string navigationInstructions = "Type the corrosponding number to select an option:";
+	map<string, int> colorChoices;
 
 	// Menu Content
 	string playGameSelection = "Play Game";
@@ -48,6 +49,8 @@ private:
 	// Options Menu Content
 	string backgroundColorSelection = "Select Background Color";
 	string textColorSelection = "Select Text Color";
+	string textColor;
+	string backgroundColor;
 
 public:
 	// CONSTRUCTORS:
@@ -70,6 +73,7 @@ public:
 	// OPTIONS MENU GUI:
 	void PrintOptionsMenu();
 	void PrintOptionMenuSelections();
+	void PrintCustomizableOptions();
 	void PrintOptionsTitle();
 
 	// HELP MENU GUI
@@ -83,6 +87,8 @@ public:
 	void PrintAboutMenuSelections();
 
 	// GENERAL GUI RESOURCES
+	void InitializeColorMap();
+	int GetRandomPath();
 	void PrintNavigationInstructions();
 	char GetUserInput();
 };

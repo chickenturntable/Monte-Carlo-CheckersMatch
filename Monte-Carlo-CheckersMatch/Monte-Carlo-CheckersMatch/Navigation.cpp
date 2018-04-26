@@ -23,7 +23,7 @@ Description:
 using namespace std;
 
 /********************************************************************************************************
--------------------------------------------- CONSTRUCTORS -----------------------------------------------
+---------------------------------------- CONSTRUCTORS/Initializers --------------------------------------
 *********************************************************************************************************/
 Navigation::Navigation() {
 	this->version = "UNKNOWN";
@@ -31,6 +31,11 @@ Navigation::Navigation() {
 
 Navigation::Navigation(string version) {
 	this->version = version;
+}
+
+void Navigation::InitializeColorMap()
+{
+	
 }
 
 /********************************************************************************************************
@@ -119,6 +124,11 @@ void Navigation::PrintOptionMenuSelections()
 	cout << "3) - " + backSelection << endl;
 }
 
+void Navigation::PrintCustomizableOptions()
+{
+	
+}
+
 /********************************************************************************************************
 --------------------------------------------- HELP MENU GUI ---------------------------------------------
 *********************************************************************************************************/
@@ -174,6 +184,17 @@ void Navigation::PrintAboutMenuSelections()
 /********************************************************************************************************
 ------------------------------------------ GENERAL GUI RESOURCES ----------------------------------------
 *********************************************************************************************************/
+int Navigation::GetRandomPath()
+{  
+	int randomNumber = 0;
+	/* initialize random seed: */
+	srand(time(NULL));
+
+	/* generate secret number between 1 and 10: */
+	randomNumber = rand() % 1 + 0;
+	return randomNumber;
+}
+
 void Navigation::PrintNavigationInstructions()
 {
 	cout << navigationInstructions << endl;

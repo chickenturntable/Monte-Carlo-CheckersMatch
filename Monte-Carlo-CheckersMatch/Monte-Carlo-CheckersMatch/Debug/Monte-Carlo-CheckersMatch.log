@@ -2,5 +2,6 @@
   Monte-Carlo-CheckersMatch.cpp
   Move.cpp
   Navigation.cpp
+c:\users\jisasc2\documents\github\monte-carlo-checkersmatch\monte-carlo-checkersmatch\monte-carlo-checkersmatch\navigation.cpp(191): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Generating Code...
   Monte-Carlo-CheckersMatch.vcxproj -> C:\Users\jisasc2\Documents\GitHub\Monte-Carlo-CheckersMatch\Monte-Carlo-CheckersMatch\Debug\Monte-Carlo-CheckersMatch.exe
